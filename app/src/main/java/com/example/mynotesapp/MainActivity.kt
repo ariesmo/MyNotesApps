@@ -76,7 +76,8 @@ class MainActivity : AppCompatActivity() {
             Log.d(TAG, "noteHelper is Open")
 
             val deferredNotes = async(Dispatchers.IO) {
-                val cursor = noteHelper.queryAll()
+                // CONTENT URI = content://com.example.mynotesapp/note
+                val cursor = contentResolver.query(CONTENT_URI, null, null, null, null)
                 MappingHelper.mapCursorToArrayList(cursor)
             }
             noteHelper.close()
