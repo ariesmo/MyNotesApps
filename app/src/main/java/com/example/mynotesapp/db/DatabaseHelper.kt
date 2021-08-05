@@ -8,7 +8,7 @@ import com.example.mynotesapp.db.DatabaseContract.NoteColumns.Companion.TABLE_NA
 
 internal class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME, null, DATABASE_VERSION) {
     companion object{
-        private const val DATABASE_NAME = "dbnoteapp"
+        private const val DATABASE_NAME = "dbnotesapp"
         private const val DATABASE_VERSION = 1
         private const val SQL_CREATE_TABLE_NOTE = "CREATE TABLE $TABLE_NAME" +
                 " (${NoteColumns._ID} INTEGER PRIMARY KEY AUTOINCREMENT," +
