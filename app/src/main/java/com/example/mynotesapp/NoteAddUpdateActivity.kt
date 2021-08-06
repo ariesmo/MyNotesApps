@@ -1,7 +1,6 @@
 package com.example.mynotesapp
 
 import android.content.ContentValues
-import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -11,12 +10,12 @@ import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import com.example.mynotesapp.databinding.ActivityNoteAddUpdateBinding
-import com.example.mynotesapp.db.DatabaseContract
 import com.example.mynotesapp.db.DatabaseContract.NoteColumns.Companion.CONTENT_URI
 import com.example.mynotesapp.db.DatabaseContract.NoteColumns.Companion.DATE
 import com.example.mynotesapp.db.DatabaseContract.NoteColumns.Companion.DESCRIPTION
 import com.example.mynotesapp.db.DatabaseContract.NoteColumns.Companion.TITLE
 import com.example.mynotesapp.db.NoteHelper
+import com.example.mynotesapp.entity.Note
 import com.example.mynotesapp.helper.MappingHelper
 import java.text.SimpleDateFormat
 import java.util.*
