@@ -1,4 +1,4 @@
-package com.example.mynotesapp
+package com.example.mynotesapp.entity
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize

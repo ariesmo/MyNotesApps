@@ -13,6 +13,7 @@ import com.example.mynotesapp.databinding.ActivityNoteAddUpdateBinding
 import com.example.mynotesapp.db.DatabaseContract
 import com.example.mynotesapp.db.DatabaseContract.NoteColumns.Companion.DATE
 import com.example.mynotesapp.db.NoteHelper
+import com.example.mynotesapp.entity.Note
 import java.text.SimpleDateFormat
 import java.util.*
 

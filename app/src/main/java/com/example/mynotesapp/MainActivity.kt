@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.mynotesapp.adapter.NoteAdapter
 import com.example.mynotesapp.databinding.ActivityMainBinding
 import com.example.mynotesapp.db.NoteHelper
+import com.example.mynotesapp.entity.Note
 import com.example.mynotesapp.helper.MappingHelper
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.coroutines.Dispatchers

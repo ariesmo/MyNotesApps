@@ -5,10 +5,9 @@ import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.appcompat.view.menu.MenuView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mynotesapp.CustomOnItemClickListener
-import com.example.mynotesapp.Note
+import com.example.mynotesapp.entity.Note
 import com.example.mynotesapp.NoteAddUpdateActivity
 import com.example.mynotesapp.R
 import com.example.mynotesapp.databinding.ItemNoteBinding
